@@ -56,5 +56,10 @@ namespace login_form
         {
             Application.Exit();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

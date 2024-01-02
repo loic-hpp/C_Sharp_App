@@ -38,8 +38,21 @@
             label1 = new Label();
             logoTal = new PictureBox();
             main_pannel = new Panel();
+            button1 = new Button();
+            panel2 = new Panel();
+            textBox2 = new TextBox();
+            pictureBox2 = new PictureBox();
+            panel1 = new Panel();
+            textBox1 = new TextBox();
+            pictureBox1 = new PictureBox();
+            label7 = new Label();
             Logo_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoTal).BeginInit();
+            main_pannel.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // Logo_panel
@@ -143,12 +156,100 @@
             // main_pannel
             // 
             main_pannel.BackColor = SystemColors.ButtonHighlight;
+            main_pannel.Controls.Add(button1);
+            main_pannel.Controls.Add(panel2);
+            main_pannel.Controls.Add(panel1);
+            main_pannel.Controls.Add(label7);
             main_pannel.Dock = DockStyle.Fill;
             main_pannel.Location = new Point(250, 0);
             main_pannel.Name = "main_pannel";
             main_pannel.Size = new Size(482, 483);
             main_pannel.TabIndex = 1;
             main_pannel.Paint += main_pannel_Paint;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(41, 128, 185);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(174, 326);
+            button1.Name = "button1";
+            button1.Size = new Size(109, 39);
+            button1.TabIndex = 5;
+            button1.Text = "Connexion";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(textBox2);
+            panel2.Controls.Add(pictureBox2);
+            panel2.Location = new Point(0, 250);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(479, 45);
+            panel2.TabIndex = 4;
+            // 
+            // textBox2
+            // 
+            textBox2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox2.ForeColor = Color.FromArgb(41, 128, 185);
+            textBox2.Location = new Point(48, 10);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(370, 32);
+            textBox2.TabIndex = 9;
+            textBox2.UseSystemPasswordChar = true;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(6, 10);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(25, 25);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 8;
+            pictureBox2.TabStop = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(0, 180);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(479, 45);
+            panel1.TabIndex = 3;
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.ForeColor = Color.FromArgb(41, 128, 185);
+            textBox1.Location = new Point(48, 10);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(370, 32);
+            textBox1.TabIndex = 8;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(6, 10);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(25, 25);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = Color.FromArgb(41, 128, 185);
+            label7.Location = new Point(3, 127);
+            label7.Name = "label7";
+            label7.Size = new Size(304, 34);
+            label7.TabIndex = 2;
+            label7.Text = "Entrer vos identifiants";
+            label7.Click += label7_Click;
             // 
             // LoginForm
             // 
@@ -157,14 +258,23 @@
             ClientSize = new Size(732, 483);
             Controls.Add(main_pannel);
             Controls.Add(Logo_panel);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Login_window";
+            Text = "Connexion";
             Load += LoginForm_Load;
             Logo_panel.ResumeLayout(false);
             Logo_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)logoTal).EndInit();
+            main_pannel.ResumeLayout(false);
+            main_pannel.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -179,5 +289,13 @@
         private Label label3;
         private Label label5;
         private Label label6;
+        private Label label7;
+        private Panel panel1;
+        private Panel panel2;
+        private PictureBox pictureBox2;
+        private TextBox textBox1;
+        private PictureBox pictureBox1;
+        private TextBox textBox2;
+        private Button button1;
     }
 }
