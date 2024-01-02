@@ -38,10 +38,8 @@
             label1 = new Label();
             logoTal = new PictureBox();
             main_pannel = new Panel();
-            boutonFermer = new Button();
             Logo_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoTal).BeginInit();
-            main_pannel.SuspendLayout();
             SuspendLayout();
             // 
             // Logo_panel
@@ -145,7 +143,6 @@
             // main_pannel
             // 
             main_pannel.BackColor = SystemColors.ButtonHighlight;
-            main_pannel.Controls.Add(boutonFermer);
             main_pannel.Dock = DockStyle.Fill;
             main_pannel.Location = new Point(250, 0);
             main_pannel.Name = "main_pannel";
@@ -153,29 +150,14 @@
             main_pannel.TabIndex = 1;
             main_pannel.Paint += main_pannel_Paint;
             // 
-            // boutonFermer
-            // 
-            boutonFermer.FlatAppearance.BorderSize = 0;
-            boutonFermer.FlatStyle = FlatStyle.Flat;
-            boutonFermer.Font = new Font("Verdana", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            boutonFermer.ForeColor = Color.FromArgb(41, 128, 185);
-            boutonFermer.Location = new Point(442, 0);
-            boutonFermer.Name = "boutonFermer";
-            boutonFermer.Size = new Size(40, 40);
-            boutonFermer.TabIndex = 0;
-            boutonFermer.Text = "X";
-            boutonFermer.UseVisualStyleBackColor = true;
-            boutonFermer.Click += boutonFermer_Click;
-            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(732, 483);
-            ControlBox = false;
             Controls.Add(main_pannel);
             Controls.Add(Logo_panel);
-            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login_window";
@@ -183,7 +165,6 @@
             Logo_panel.ResumeLayout(false);
             Logo_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)logoTal).EndInit();
-            main_pannel.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -198,6 +179,5 @@
         private Label label3;
         private Label label5;
         private Label label6;
-        private Button boutonFermer;
     }
 }
