@@ -14,4 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = login_form
-build_property.ProjectDir = C:\Users\loicn\Local_doc\C_Sharp_App\login_form\
+build_property.ProjectDir = C:\Users\loicn\Local_doc\C_Sharp_App\Login_page\login_form\
