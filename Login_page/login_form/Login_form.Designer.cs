@@ -165,7 +165,7 @@
             boutonFermer.Text = "X";
             boutonFermer.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -174,9 +174,9 @@
             Controls.Add(main_pannel);
             Controls.Add(Logo_panel);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Form1";
+            Name = "LoginForm";
             Text = "Login_window";
-            Load += Form1_Load;
+            Load += LoginForm_Load;
             Logo_panel.ResumeLayout(false);
             Logo_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)logoTal).EndInit();
