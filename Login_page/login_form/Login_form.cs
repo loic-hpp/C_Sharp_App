@@ -46,5 +46,15 @@ namespace login_form
         {
 
         }
+
+        private void main_pannel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void boutonFermer_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

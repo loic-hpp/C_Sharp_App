@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             Logo_panel = new Panel();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             logoTal = new PictureBox();
             main_pannel = new Panel();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
             boutonFermer = new Button();
             Logo_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoTal).BeginInit();
@@ -60,6 +60,77 @@
             Logo_panel.Size = new Size(250, 483);
             Logo_panel.TabIndex = 0;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(0, 457);
+            label6.Name = "label6";
+            label6.Size = new Size(232, 17);
+            label6.TabIndex = 6;
+            label6.Text = "Tribunal Administratif du Logement";
+            label6.Click += label6_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(0, 439);
+            label5.Name = "label5";
+            label5.Size = new Size(148, 17);
+            label5.TabIndex = 5;
+            label5.Text = "Propriété exclusive du";
+            label5.Click += label5_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(12, 243);
+            label4.Name = "label4";
+            label4.Size = new Size(243, 34);
+            label4.TabIndex = 4;
+            label4.Text = "d'administrartion";
+            label4.Click += label4_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(123, 280);
+            label3.Name = "label3";
+            label3.Size = new Size(104, 34);
+            label3.TabIndex = 3;
+            label3.Text = "du TAL";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(123, 209);
+            label2.Name = "label2";
+            label2.Size = new Size(121, 34);
+            label2.TabIndex = 2;
+            label2.Text = "console";
+            label2.Click += label2_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(3, 175);
+            label1.Name = "label1";
+            label1.Size = new Size(245, 34);
+            label1.TabIndex = 1;
+            label1.Text = "Bienvenue sur la ";
+            label1.Click += label1_Click;
+            // 
             // logoTal
             // 
             logoTal.Image = (Image)resources.GetObject("logoTal.Image");
@@ -80,77 +151,7 @@
             main_pannel.Name = "main_pannel";
             main_pannel.Size = new Size(482, 483);
             main_pannel.TabIndex = 1;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(3, 175);
-            label1.Name = "label1";
-            label1.Size = new Size(245, 34);
-            label1.TabIndex = 1;
-            label1.Text = "Bienvenue sur la ";
-            label1.Click += label1_Click;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(123, 209);
-            label2.Name = "label2";
-            label2.Size = new Size(121, 34);
-            label2.TabIndex = 2;
-            label2.Text = "console";
-            label2.Click += label2_Click;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(123, 280);
-            label3.Name = "label3";
-            label3.Size = new Size(104, 34);
-            label3.TabIndex = 3;
-            label3.Text = "du TAL";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(12, 243);
-            label4.Name = "label4";
-            label4.Size = new Size(243, 34);
-            label4.TabIndex = 4;
-            label4.Text = "d'administrartion";
-            label4.Click += label4_Click;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(0, 439);
-            label5.Name = "label5";
-            label5.Size = new Size(148, 17);
-            label5.TabIndex = 5;
-            label5.Text = "Propriété exclusive du";
-            label5.Click += label5_Click;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(3, 457);
-            label6.Name = "label6";
-            label6.Size = new Size(232, 17);
-            label6.TabIndex = 6;
-            label6.Text = "Tribunal Administratif du Logement";
-            label6.Click += label6_Click;
+            main_pannel.Paint += main_pannel_Paint;
             // 
             // boutonFermer
             // 
@@ -164,6 +165,7 @@
             boutonFermer.TabIndex = 0;
             boutonFermer.Text = "X";
             boutonFermer.UseVisualStyleBackColor = true;
+            boutonFermer.Click += boutonFermer_Click;
             // 
             // LoginForm
             // 
@@ -175,6 +177,7 @@
             Controls.Add(Logo_panel);
             FormBorderStyle = FormBorderStyle.None;
             Name = "LoginForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login_window";
             Load += LoginForm_Load;
             Logo_panel.ResumeLayout(false);
