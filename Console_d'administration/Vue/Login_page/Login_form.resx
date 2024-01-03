@@ -1397,10 +1397,10 @@
         AgAAAAAAAAAAAAARIcT/A1LIqwv9v0ZPAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="logoMotDePasse.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAACsySURBVHhe7d0L
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAACsySURBVHhe7d0L
         nCVVfeBxXioaxfcrawziOFNVd0CXEXxhJMb9uL6WrI+NotEQ1MSsyiZq+Cgkjigqysusa6KEAEbN2hKR
         7a6qHkBHRGRleCwoCMpLUVCQGZjpqrrd86g9/+aQ4Okzw+mm76lz6v6+n8/vgzEyU93973+dftx7dwMA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1588,7 +1588,7 @@
         AAAAfNhtt/8P4LYhvkuG+l4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="logoUtilisateur.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAIjFJREFUeF7t
         3QuUJXdd4PEECCgIEUQEBSKKIk/PEkEiD6MLrghhyfSt20kQNnuEAXQXjiJvH/GFqOsKCkpkXcQnGxXE

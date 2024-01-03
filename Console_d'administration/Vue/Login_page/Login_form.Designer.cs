@@ -30,40 +30,40 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             Logo_panel = new Panel();
-            label6 = new Label();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
+            droitApplication2 = new Label();
+            droitApplication = new Label();
+            nomApplication4 = new Label();
+            nomApplication3 = new Label();
+            nomApplication2 = new Label();
+            nomApplication = new Label();
             logoTal = new PictureBox();
             main_pannel = new Panel();
-            button1 = new Button();
-            panel2 = new Panel();
-            textBox2 = new TextBox();
-            pictureBox2 = new PictureBox();
-            panel1 = new Panel();
-            textBox1 = new TextBox();
-            pictureBox1 = new PictureBox();
-            label7 = new Label();
+            boutonConnecter = new Button();
+            motDePasse = new Panel();
+            champMotDePasse = new TextBox();
+            logoMotDePasse = new PictureBox();
+            nomUtilisateur = new Panel();
+            champNomUtilisateur = new TextBox();
+            logoUtilisateur = new PictureBox();
+            demanderIdentifiant = new Label();
             Logo_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoTal).BeginInit();
             main_pannel.SuspendLayout();
-            panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            motDePasse.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)logoMotDePasse).BeginInit();
+            nomUtilisateur.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)logoUtilisateur).BeginInit();
             SuspendLayout();
             // 
             // Logo_panel
             // 
             Logo_panel.BackColor = Color.FromArgb(40, 128, 185);
-            Logo_panel.Controls.Add(label6);
-            Logo_panel.Controls.Add(label5);
-            Logo_panel.Controls.Add(label4);
-            Logo_panel.Controls.Add(label3);
-            Logo_panel.Controls.Add(label2);
-            Logo_panel.Controls.Add(label1);
+            Logo_panel.Controls.Add(droitApplication2);
+            Logo_panel.Controls.Add(droitApplication);
+            Logo_panel.Controls.Add(nomApplication4);
+            Logo_panel.Controls.Add(nomApplication3);
+            Logo_panel.Controls.Add(nomApplication2);
+            Logo_panel.Controls.Add(nomApplication);
             Logo_panel.Controls.Add(logoTal);
             Logo_panel.Dock = DockStyle.Left;
             Logo_panel.Location = new Point(0, 0);
@@ -71,76 +71,76 @@
             Logo_panel.Size = new Size(250, 483);
             Logo_panel.TabIndex = 0;
             // 
-            // label6
+            // droitApplication2
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(0, 457);
-            label6.Name = "label6";
-            label6.Size = new Size(232, 17);
-            label6.TabIndex = 6;
-            label6.Text = "Tribunal Administratif du Logement";
-            label6.Click += label6_Click;
+            droitApplication2.AutoSize = true;
+            droitApplication2.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            droitApplication2.ForeColor = Color.White;
+            droitApplication2.Location = new Point(0, 457);
+            droitApplication2.Name = "droitApplication2";
+            droitApplication2.Size = new Size(232, 17);
+            droitApplication2.TabIndex = 6;
+            droitApplication2.Text = "Tribunal Administratif du Logement";
+            droitApplication2.Click += label6_Click;
             // 
-            // label5
+            // droitApplication
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(0, 439);
-            label5.Name = "label5";
-            label5.Size = new Size(148, 17);
-            label5.TabIndex = 5;
-            label5.Text = "Propriété exclusive du";
-            label5.Click += label5_Click;
+            droitApplication.AutoSize = true;
+            droitApplication.Font = new Font("Century Gothic", 7.8F, FontStyle.Regular, GraphicsUnit.Point);
+            droitApplication.ForeColor = Color.White;
+            droitApplication.Location = new Point(0, 439);
+            droitApplication.Name = "droitApplication";
+            droitApplication.Size = new Size(148, 17);
+            droitApplication.TabIndex = 5;
+            droitApplication.Text = "Propriété exclusive du";
+            droitApplication.Click += label5_Click;
             // 
-            // label4
+            // nomApplication4
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(12, 243);
-            label4.Name = "label4";
-            label4.Size = new Size(243, 34);
-            label4.TabIndex = 4;
-            label4.Text = "d'administrartion";
-            label4.Click += label4_Click;
+            nomApplication4.AutoSize = true;
+            nomApplication4.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            nomApplication4.ForeColor = Color.White;
+            nomApplication4.Location = new Point(12, 243);
+            nomApplication4.Name = "nomApplication4";
+            nomApplication4.Size = new Size(243, 34);
+            nomApplication4.TabIndex = 4;
+            nomApplication4.Text = "d'administrartion";
+            nomApplication4.Click += label4_Click;
             // 
-            // label3
+            // nomApplication3
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(123, 280);
-            label3.Name = "label3";
-            label3.Size = new Size(104, 34);
-            label3.TabIndex = 3;
-            label3.Text = "du TAL";
+            nomApplication3.AutoSize = true;
+            nomApplication3.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            nomApplication3.ForeColor = Color.White;
+            nomApplication3.Location = new Point(123, 280);
+            nomApplication3.Name = "nomApplication3";
+            nomApplication3.Size = new Size(104, 34);
+            nomApplication3.TabIndex = 3;
+            nomApplication3.Text = "du TAL";
             // 
-            // label2
+            // nomApplication2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(123, 209);
-            label2.Name = "label2";
-            label2.Size = new Size(121, 34);
-            label2.TabIndex = 2;
-            label2.Text = "console";
-            label2.Click += label2_Click;
+            nomApplication2.AutoSize = true;
+            nomApplication2.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            nomApplication2.ForeColor = Color.White;
+            nomApplication2.Location = new Point(123, 209);
+            nomApplication2.Name = "nomApplication2";
+            nomApplication2.Size = new Size(121, 34);
+            nomApplication2.TabIndex = 2;
+            nomApplication2.Text = "console";
+            nomApplication2.Click += label2_Click;
             // 
-            // label1
+            // nomApplication
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(3, 175);
-            label1.Name = "label1";
-            label1.Size = new Size(245, 34);
-            label1.TabIndex = 1;
-            label1.Text = "Bienvenue sur la ";
-            label1.Click += label1_Click;
+            nomApplication.AutoSize = true;
+            nomApplication.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            nomApplication.ForeColor = Color.White;
+            nomApplication.Location = new Point(3, 175);
+            nomApplication.Name = "nomApplication";
+            nomApplication.Size = new Size(245, 34);
+            nomApplication.TabIndex = 1;
+            nomApplication.Text = "Bienvenue sur la ";
+            nomApplication.Click += label1_Click;
             // 
             // logoTal
             // 
@@ -156,10 +156,10 @@
             // main_pannel
             // 
             main_pannel.BackColor = SystemColors.ButtonHighlight;
-            main_pannel.Controls.Add(button1);
-            main_pannel.Controls.Add(panel2);
-            main_pannel.Controls.Add(panel1);
-            main_pannel.Controls.Add(label7);
+            main_pannel.Controls.Add(boutonConnecter);
+            main_pannel.Controls.Add(motDePasse);
+            main_pannel.Controls.Add(nomUtilisateur);
+            main_pannel.Controls.Add(demanderIdentifiant);
             main_pannel.Dock = DockStyle.Fill;
             main_pannel.Location = new Point(250, 0);
             main_pannel.Name = "main_pannel";
@@ -167,89 +167,90 @@
             main_pannel.TabIndex = 1;
             main_pannel.Paint += main_pannel_Paint;
             // 
-            // button1
+            // boutonConnecter
             // 
-            button1.BackColor = Color.FromArgb(41, 128, 185);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(174, 326);
-            button1.Name = "button1";
-            button1.Size = new Size(109, 39);
-            button1.TabIndex = 5;
-            button1.Text = "Connexion";
-            button1.UseVisualStyleBackColor = false;
+            boutonConnecter.BackColor = Color.FromArgb(41, 128, 185);
+            boutonConnecter.FlatStyle = FlatStyle.Flat;
+            boutonConnecter.Font = new Font("Century Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            boutonConnecter.ForeColor = Color.White;
+            boutonConnecter.Location = new Point(174, 326);
+            boutonConnecter.Name = "boutonConnecter";
+            boutonConnecter.Size = new Size(109, 39);
+            boutonConnecter.TabIndex = 5;
+            boutonConnecter.Text = "Connexion";
+            boutonConnecter.UseVisualStyleBackColor = false;
+            boutonConnecter.Click += button1_Click;
             // 
-            // panel2
+            // motDePasse
             // 
-            panel2.BackColor = Color.White;
-            panel2.Controls.Add(textBox2);
-            panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(0, 250);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(479, 45);
-            panel2.TabIndex = 4;
+            motDePasse.BackColor = Color.White;
+            motDePasse.Controls.Add(champMotDePasse);
+            motDePasse.Controls.Add(logoMotDePasse);
+            motDePasse.Location = new Point(0, 250);
+            motDePasse.Name = "motDePasse";
+            motDePasse.Size = new Size(479, 45);
+            motDePasse.TabIndex = 4;
             // 
-            // textBox2
+            // champMotDePasse
             // 
-            textBox2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.ForeColor = Color.FromArgb(41, 128, 185);
-            textBox2.Location = new Point(48, 10);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(370, 32);
-            textBox2.TabIndex = 9;
-            textBox2.UseSystemPasswordChar = true;
+            champMotDePasse.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            champMotDePasse.ForeColor = Color.FromArgb(41, 128, 185);
+            champMotDePasse.Location = new Point(48, 10);
+            champMotDePasse.Name = "champMotDePasse";
+            champMotDePasse.Size = new Size(370, 32);
+            champMotDePasse.TabIndex = 9;
+            champMotDePasse.UseSystemPasswordChar = true;
             // 
-            // pictureBox2
+            // logoMotDePasse
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(6, 10);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(36, 32);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 8;
-            pictureBox2.TabStop = false;
+            logoMotDePasse.Image = (Image)resources.GetObject("logoMotDePasse.Image");
+            logoMotDePasse.Location = new Point(6, 10);
+            logoMotDePasse.Name = "logoMotDePasse";
+            logoMotDePasse.Size = new Size(36, 32);
+            logoMotDePasse.SizeMode = PictureBoxSizeMode.StretchImage;
+            logoMotDePasse.TabIndex = 8;
+            logoMotDePasse.TabStop = false;
             // 
-            // panel1
+            // nomUtilisateur
             // 
-            panel1.BackColor = Color.White;
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(0, 180);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(479, 45);
-            panel1.TabIndex = 3;
+            nomUtilisateur.BackColor = Color.White;
+            nomUtilisateur.Controls.Add(champNomUtilisateur);
+            nomUtilisateur.Controls.Add(logoUtilisateur);
+            nomUtilisateur.Location = new Point(0, 180);
+            nomUtilisateur.Name = "nomUtilisateur";
+            nomUtilisateur.Size = new Size(479, 45);
+            nomUtilisateur.TabIndex = 3;
             // 
-            // textBox1
+            // champNomUtilisateur
             // 
-            textBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = Color.FromArgb(41, 128, 185);
-            textBox1.Location = new Point(48, 10);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(370, 32);
-            textBox1.TabIndex = 8;
+            champNomUtilisateur.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            champNomUtilisateur.ForeColor = Color.FromArgb(41, 128, 185);
+            champNomUtilisateur.Location = new Point(48, 10);
+            champNomUtilisateur.Name = "champNomUtilisateur";
+            champNomUtilisateur.Size = new Size(370, 32);
+            champNomUtilisateur.TabIndex = 8;
             // 
-            // pictureBox1
+            // logoUtilisateur
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(6, 10);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(36, 32);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 7;
-            pictureBox1.TabStop = false;
+            logoUtilisateur.Image = (Image)resources.GetObject("logoUtilisateur.Image");
+            logoUtilisateur.Location = new Point(6, 10);
+            logoUtilisateur.Name = "logoUtilisateur";
+            logoUtilisateur.Size = new Size(36, 32);
+            logoUtilisateur.SizeMode = PictureBoxSizeMode.StretchImage;
+            logoUtilisateur.TabIndex = 7;
+            logoUtilisateur.TabStop = false;
             // 
-            // label7
+            // demanderIdentifiant
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.ForeColor = Color.FromArgb(41, 128, 185);
-            label7.Location = new Point(3, 127);
-            label7.Name = "label7";
-            label7.Size = new Size(304, 34);
-            label7.TabIndex = 2;
-            label7.Text = "Entrer vos identifiants";
-            label7.Click += label7_Click;
+            demanderIdentifiant.AutoSize = true;
+            demanderIdentifiant.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            demanderIdentifiant.ForeColor = Color.FromArgb(41, 128, 185);
+            demanderIdentifiant.Location = new Point(3, 127);
+            demanderIdentifiant.Name = "demanderIdentifiant";
+            demanderIdentifiant.Size = new Size(304, 34);
+            demanderIdentifiant.TabIndex = 2;
+            demanderIdentifiant.Text = "Entrer vos identifiants";
+            demanderIdentifiant.Click += label7_Click;
             // 
             // LoginForm
             // 
@@ -269,12 +270,12 @@
             ((System.ComponentModel.ISupportInitialize)logoTal).EndInit();
             main_pannel.ResumeLayout(false);
             main_pannel.PerformLayout();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            motDePasse.ResumeLayout(false);
+            motDePasse.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)logoMotDePasse).EndInit();
+            nomUtilisateur.ResumeLayout(false);
+            nomUtilisateur.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)logoUtilisateur).EndInit();
             ResumeLayout(false);
         }
 
@@ -283,19 +284,19 @@
         private Panel Logo_panel;
         private Panel main_pannel;
         private PictureBox logoTal;
-        private Label label1;
-        private Label label2;
-        private Label label4;
-        private Label label3;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Panel panel1;
-        private Panel panel2;
-        private PictureBox pictureBox2;
-        private TextBox textBox1;
-        private PictureBox pictureBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private Label nomApplication;
+        private Label nomApplication2;
+        private Label nomApplication4;
+        private Label nomApplication3;
+        private Label droitApplication;
+        private Label droitApplication2;
+        private Label demanderIdentifiant;
+        private Panel nomUtilisateur;
+        private Panel motDePasse;
+        private PictureBox logoMotDePasse;
+        private TextBox champNomUtilisateur;
+        private PictureBox logoUtilisateur;
+        private TextBox champMotDePasse;
+        private Button boutonConnecter;
     }
 }
