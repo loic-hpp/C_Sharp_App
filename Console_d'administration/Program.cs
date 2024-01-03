@@ -1,4 +1,6 @@
-namespace login_form
+using login_form;
+
+namespace Console_d_administration
 {
     internal static class Program
     {
