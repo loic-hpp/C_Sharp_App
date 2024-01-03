@@ -81,7 +81,6 @@
             droitApplication2.Size = new Size(232, 17);
             droitApplication2.TabIndex = 6;
             droitApplication2.Text = "Tribunal Administratif du Logement";
-            droitApplication2.Click += label6_Click;
             // 
             // droitApplication
             // 
@@ -93,7 +92,6 @@
             droitApplication.Size = new Size(148, 17);
             droitApplication.TabIndex = 5;
             droitApplication.Text = "Propriété exclusive du";
-            droitApplication.Click += label5_Click;
             // 
             // nomApplication4
             // 
@@ -105,7 +103,6 @@
             nomApplication4.Size = new Size(243, 34);
             nomApplication4.TabIndex = 4;
             nomApplication4.Text = "d'administrartion";
-            nomApplication4.Click += label4_Click;
             // 
             // nomApplication3
             // 
@@ -128,7 +125,6 @@
             nomApplication2.Size = new Size(121, 34);
             nomApplication2.TabIndex = 2;
             nomApplication2.Text = "console";
-            nomApplication2.Click += label2_Click;
             // 
             // nomApplication
             // 
@@ -140,7 +136,6 @@
             nomApplication.Size = new Size(245, 34);
             nomApplication.TabIndex = 1;
             nomApplication.Text = "Bienvenue sur la ";
-            nomApplication.Click += label1_Click;
             // 
             // logoTal
             // 
@@ -151,7 +146,6 @@
             logoTal.SizeMode = PictureBoxSizeMode.StretchImage;
             logoTal.TabIndex = 0;
             logoTal.TabStop = false;
-            logoTal.Click += pictureBox1_Click;
             // 
             // main_pannel
             // 
@@ -165,7 +159,6 @@
             main_pannel.Name = "main_pannel";
             main_pannel.Size = new Size(482, 483);
             main_pannel.TabIndex = 1;
-            main_pannel.Paint += main_pannel_Paint;
             // 
             // boutonConnecter
             // 
@@ -179,7 +172,7 @@
             boutonConnecter.TabIndex = 5;
             boutonConnecter.Text = "Connexion";
             boutonConnecter.UseVisualStyleBackColor = false;
-            boutonConnecter.Click += button1_Click;
+            boutonConnecter.Click += boutonConnecter_Click;
             // 
             // motDePasse
             // 
@@ -250,7 +243,6 @@
             demanderIdentifiant.Size = new Size(304, 34);
             demanderIdentifiant.TabIndex = 2;
             demanderIdentifiant.Text = "Entrer vos identifiants";
-            demanderIdentifiant.Click += label7_Click;
             // 
             // LoginForm
             // 
