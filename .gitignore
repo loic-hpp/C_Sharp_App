@@ -1,7 +1,10 @@
 *
-*/
 !.gitignore
 !*.cs
 !*.csproj
 !*.sln
 !*.resx
+!*.png
+!*.jpg
+!*.svg
+!*/
