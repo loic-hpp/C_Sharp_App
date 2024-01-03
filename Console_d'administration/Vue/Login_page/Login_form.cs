@@ -21,12 +21,11 @@ namespace login_form
         {
             bool aAcces = Controleur.Login.identifiantValide(this.champNomUtilisateur.Text, this.champMotDePasse.Text);
             if (aAcces) {
-                //Application.Exit();
+                this.Hide();
+                Form accueilForm = new Console_d_administration.Vue.Accueil.Accueil();
+                accueilForm.Closed += (s, args) => this.Close();
+                accueilForm.Show();
 
-                var accueilForm = new Console_d_administration.Vue.Accueil.Accueil();
-                accueilForm.ShowDialog();
-
-                //Application.Run(new Console_d_administration.Vue.Accueil.Accueil());
 
             }
         }
