@@ -8,12 +8,12 @@ namespace Controleur
         }
         public static bool identifiantValide(string nomUtilisateur, string motDePasse)
         {
-            return true;
+            return Modele.Login.identifiantValide(nomUtilisateur, motDePasse);
         }
 
         public static bool estAdmin(string nomUtilisateur)
         {
-            return true;
+            return Modele.Login.estAdmin(nomUtilisateur); ;
         }
 
     }
